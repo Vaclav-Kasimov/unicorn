@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+
+#nav-logo{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border: 2px solid #439A97;
+	background-color: #FFFFFF;
+	padding-top: 18px;
+	border-radius: 90px;
+}
+
+.navbar-brand span{
+	font-size: 1.5em;
+	font-weight: 900;
+}
+
+header{
+	background-color: #69AEAC;
+}
+
+.navbar{
+	background-color: #69AEAC !important;
+}
+
+.nav-item{
+	font-size: 1.2em;
+}
+
+@media (min-width: 768px){
+	header{
+		border-bottom: 2px solid #439A97;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.nav-item{
+		font-size: 0.8em;
+	}
+	.navbar-brand span{
+		font-size: 1.2em;
+	}
+}
