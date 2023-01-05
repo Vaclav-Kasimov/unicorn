@@ -3,7 +3,7 @@
 	font-size: 16px;
 }
 
-
+/*------------------------ HEADER ------------------------*/
 #nav-logo{
 	display: inline-block;
 	width: 80px;
@@ -15,8 +15,12 @@
 }
 
 .navbar-brand span{
-	font-size: 1.5em;
-	font-weight: 900;
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 4vw;
+	line-height: 53px;
+	color: #411F15;
 }
 
 header{
@@ -28,20 +32,206 @@ header{
 }
 
 .nav-item{
-	font-size: 1.2em;
+	font-size: 1.5vw;
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 400;
 }
 
-@media (min-width: 768px){
+/*--------------- HEADER END ------------------------*/
+
+
+
+
+/*----------------------- MAIN CONTENT ------------------*/
+
+
+
+
+/* --------- 1-ST BLOCK --------------------*/
+
+
+/*first image*/
+#adv_1{
+	background-image: url("/img/content/adv_1.png");
+	width: 450px;
+	height: 515px;	
+	background-repeat: no-repeat;
+}
+
+/*second image*/
+#adv_2{
+	background-image: url("/img/content/adv_2.png");
+	width: 450px;
+	height: 515px;	
+	background-repeat: no-repeat;
+}
+
+/*description of goods*/
+#discription_1{
+	background: rgba(67, 154, 151, 0.24);
+	border: 2px solid #439A97;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	width: 324px;
+	height: 158px;
+	font-family: 'PT Serif';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 37px;
+	line-height: 49px;	
+	color: #534A39;
+	padding-left: 20px; 
+}
+
+/*list*/
+#slogans{
+
+	list-style-image: url("/img/icons/list_marker.png");
+
+}
+
+#slogans li{
+	margin-right: 40px;
+}
+
+#slogans li span{
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: #000000;
+}
+
+/*button for placing an order*/
+#btn_1{
+	width: 282px;
+	height: 37px;
+	background: #F49AB4;
+	box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 34px;
+	color: #000000;
+	border-width: 0;
+}
+
+#block_1 h2{
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 106px;
+	color: #411F15;
+}
+
+
+/* --------- 1-ST BLOCK END ------------------*/
+
+
+
+
+
+/*------------------------ MAIN CONTENT END ----------------------*/
+
+
+
+
+/*Media-queries*/
+
+@media (max-width: 576px){
+	.navbar-brand span{
+		font-size: 7vw;
+	}
+}
+
+@media (min-width: 768px) ){
+	.nav-item{
+		font-size: 1.3vw;
+	}
+	.navbar-brand span{
+		font-size: 3vw;
+	}
 	header{
 		border-bottom: 2px solid #439A97;
 	}
 }
 
-@media (min-width: 768px) and (max-width: 991px){
-	.nav-item{
-		font-size: 0.8em;
+@media (min-width: 992px){
+
+	header{
+		border-bottom: 2px solid #439A97;
 	}
-	.navbar-brand span{
-		font-size: 1.2em;
+
+	#block_1{
+		height: 692px !important;
+	}
+
+	#adv_1{
+		bottom: 0;
+	}
+
+	#adv_2{
+		right: 	0;
+	}
+
+	#block_1 h2{
+		left: 	55px;
+		top: 	36px;
+		font-size: 	60px;
+	}
+
+		#discription_1{
+		left: 	35%;
+		top: 	328px;
+	}
+
+	#slogans{
+		bottom: 48px;
+		right: 20.5%;
+	}
+
+	#btn_1{
+		bottom: 0px;
+		right: 170px;
+	}
+
+}
+
+
+
+@media (min-width: 1200px){
+
+
+	#block_1 h2{
+		font-size: 	80px;
+	}
+
+	#slogans{
+		display: inline-flex;
+		right: 1%;
+		top: 572px;
+	}
+
+	/*#slogans li{
+		padding: 12px;
+	}*/
+
+}
+
+
+@media (min-width: 	1400px){
+	#discription_1{
+		left: 	37.5%;
 	}
 }
+
+
+/* ----------------------- FONTS --------------------------*/
+
+
+

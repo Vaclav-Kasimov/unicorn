@@ -21,6 +21,11 @@
     <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap-utilities.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
   </head>
 <body>
   <header>
@@ -29,9 +34,14 @@
       position-relative -- so the positioning of the elements inside the navbar will be possible -->
 
       <nav id="navbar-default" class="navbar navbar-expand-md navbar-light bg-light position-relative">
+
+          <!-- Кнопка -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Изображение кнопки -->
             <span class="navbar-toggler-icon"></span>
           </button>
+
+          <!-- Лого и название бренда -->
           <a class="navbar-brand position-relative" href="index.html">
             <div id="nav-logo">
               <img id="nav-img" src="/img/logos/Ulogo80.png" width="70" height="44">
@@ -39,6 +49,7 @@
             <span class="">unicOrn.lab</span>
           </a>  
           
+          <!-- Контент выпадающего меню и контент в шапке справа -->
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item">
@@ -55,15 +66,29 @@
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
-    </div>
+        </nav>
+      </div>
   </header>
 
 
 
+
+
   <div id="main-content" class="container position-relative">
-    <div class="float-md-end">Float end on all viewport sizes</div>
+        <div class="col-12 position-relative" id="block_1">
+          <h2 class="position-absolute">Ваша вышивка</h2>
+          <div id="adv_1" class="position-absolute"></div> <!-- Первая картинка с моделью -->
+          <div id="adv_2" class="position-absolute"></div> <!-- Вторая картинка с моделью -->
+          <div id="discription_1" class="position-absolute">на футболках,<br>худи, свитшотах,<br>лонгсливах</div>
+          <ul id="slogans" class="position-absolute"><!-- Краткие заманивающие слоганы. Идут горизонтально. -->
+            <li><span>любая вышивка</span></li>
+            <li><span>изготовление 3-7 дней</span></li>
+            <li><span>низкие цены</span></li>
+          </ul>
+          <button id="btn_1" class="position-absolute"> <!-- Кнопка для создания заказа -->
+            Заказать сейчас
+          </button>
+        </div>
   </div> <!-- End of main-content -->
 
   <footer class="panel-footer">
