@@ -18,8 +18,6 @@
 	font-family: 'Playfair Display';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 4vw;
-	line-height: 53px;
 	color: #411F15;
 }
 
@@ -32,7 +30,6 @@ header{
 }
 
 .nav-item{
-	font-size: 1.5vw;
 	font-family: 'PT Serif';
 	font-style: normal;
 	font-weight: 400;
@@ -78,7 +75,7 @@ header{
 	font-family: 'PT Serif';
 	font-style: italic;
 	font-weight: 400;
-	font-size: 37px;
+	font-size: 34px;
 	line-height: 49px;	
 	color: #534A39;
 	padding-left: 20px; 
@@ -156,12 +153,22 @@ header{
 	.navbar-brand span{
 		font-size: 3vw;
 	}
+	.nav-item{
+		font-size: 1.5vw;
+	}
 	header{
 		border-bottom: 2px solid #439A97;
 	}
 }
 
 @media (min-width: 992px){
+
+	.navbar-brand span{
+		font-size: 30px;
+	}
+	.nav-item{
+		font-size: 20px;
+	}
 
 	header{
 		border-bottom: 2px solid #439A97;
@@ -185,19 +192,54 @@ header{
 		font-size: 	60px;
 	}
 
-		#discription_1{
+	#discription_1{
 		left: 	35%;
 		top: 	328px;
 	}
 
 	#slogans{
 		bottom: 48px;
-		right: 20.5%;
+		right: 19%;
+		width:	auto;
 	}
+
+		#slogans li{
+		width: auto;
+	}
+
 
 	#btn_1{
 		bottom: 0px;
 		right: 170px;
+	}
+
+	#block_2{
+		height: 642px;
+		background-color: rgba(67, 154, 151, 0.8);
+	}
+
+
+	#adv_text_1 h2{
+		text-align: center;
+		font-family: 'PT Serif';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 46px;
+		color: #411F15;
+	}
+
+	#adv_text_1 div{
+		font-family: 'PT Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 28px;
+		color: #411F15;
+		text-indent: 50px;
+	}
+
+	#adv_3{
+		background-image: url("/img/content/adv_3.png");
+		background-repeat: no-repeat;
 	}
 
 }
@@ -206,6 +248,12 @@ header{
 
 @media (min-width: 1200px){
 
+	.navbar-brand span{
+		font-size: 40px;
+	}
+	.nav-item{
+		font-size: 22px;
+	}
 
 	#block_1 h2{
 		font-size: 	80px;
@@ -217,14 +265,16 @@ header{
 		top: 572px;
 	}
 
-	/*#slogans li{
-		padding: 12px;
-	}*/
 
 }
 
 
 @media (min-width: 	1400px){
+
+	.navbar-brand span{
+		font-size: 40px;
+	}
+
 	#discription_1{
 		left: 	37.5%;
 	}
