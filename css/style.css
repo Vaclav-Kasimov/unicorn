@@ -218,6 +218,9 @@ header{
 		background-color: rgba(67, 154, 151, 0.8);
 	}
 
+	#adv_text_1{
+		vertical-align: center;
+	}
 
 	#adv_text_1 h2{
 		text-align: center;
@@ -232,7 +235,7 @@ header{
 		font-family: 'PT Sans';
 		font-style: normal;
 		font-weight: 400;
-		font-size: 28px;
+		font-size: 27px;
 		color: #411F15;
 		text-indent: 50px;
 	}
@@ -240,6 +243,76 @@ header{
 	#adv_3{
 		background-image: url("/img/content/adv_3.png");
 		background-repeat: no-repeat;
+	}
+
+	#block_3{
+		height: 766px;
+		margin-top: 40px;
+	}
+
+	#adv_4_background{
+		width: 500px;
+		height: 737px;
+		background: rgba(67, 154, 151, 0.8);
+		top: 0;
+		right: 0;
+	}
+
+	#adv_4{
+		width: 496px;
+		height: 724px;
+		background-image: url("/img/content/adv_4.png");
+		background-repeat: no-repeat;
+		bottom: 0;
+		right: 48px;
+	}
+
+	#adv_5_background{
+		width: 320px;
+		height: 320px;
+		border-radius: 100%;
+		background: rgba(67, 154, 151, 0.5);
+		left: 5%;
+		bottom: 5%;
+	}
+
+	#adv_5{
+		background-image: url("/img/content/adv_5.png");
+		background-repeat: no-repeat;
+		width: 260px;
+		height: 260px;
+		right:2.8%;
+		bottom: 2.8%;
+		border-radius: 100%;
+	}
+
+	#block_3 h2{
+		font-family: 'PT Serif';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 50px;
+		color: #411F15;
+		text-align: right;
+		left: -60%;
+		top: 15%;
+		line-height: 2;
+	}
+
+	#unicornlab_name{
+		padding: 0;
+		width: 289px;
+		height: 82px;
+		background: #FFFFFF;
+		border: 4px solid #439A97;
+		border-radius: 10px;
+		left: 27%;
+		bottom: 235px;
+		font-family: 'Playfair Display';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 50px;
+		color: #439A97;
+		text-align: center;
 	}
 
 }
@@ -265,6 +338,19 @@ header{
 		top: 572px;
 	}
 
+	#adv_text_1 div{
+		font-size: 28px;
+	}
+
+	#block_3 h2{
+		left: -55%;
+		top: 15%;
+		font-size: 60px;
+	}
+
+	#unicornlab_name{
+		left: 35%;
+	}
 
 }
 
