@@ -24,6 +24,9 @@
 header{
 	background-color: #69AEAC;
 	width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 999;	
 }
 
 .navbar{
@@ -51,7 +54,7 @@ header{
 
 /*first image*/
 #adv_1{
-	background-image: url("/img/content/adv_1.png");
+	background-image: url("..../img/content/adv_1.png");
 	width: 450px;
 	height: 515px;	
 	background-repeat: no-repeat;
@@ -59,7 +62,7 @@ header{
 
 /*second image*/
 #adv_2{
-	background-image: url("/img/content/adv_2.png");
+	background-image: url("../img/content/adv_2.png");
 	width: 450px;
 	height: 515px;	
 	background-repeat: no-repeat;
@@ -85,7 +88,7 @@ header{
 /*list*/
 #slogans{
 
-	list-style-image: url("/img/icons/list_marker.png");
+	list-style-image: url("../img/icons/list_marker.png");
 
 }
 
@@ -243,7 +246,7 @@ header{
 	}
 
 	#adv_3{
-		background-image: url("/img/content/adv_3.png");
+		background-image: url("../img/content/adv_3.png");
 		background-repeat: no-repeat;
 	}
 
@@ -263,7 +266,7 @@ header{
 	#adv_4{
 		width: 496px;
 		height: 724px;
-		background-image: url("/img/content/adv_4.png");
+		background-image: url("../img/content/adv_4.png");
 		background-repeat: no-repeat;
 		bottom: 0;
 		right: 48px;
@@ -279,7 +282,7 @@ header{
 	}
 
 	#adv_5{
-		background-image: url("/img/content/adv_5.png");
+		background-image: url("../img/content/adv_5.png");
 		background-repeat: no-repeat;
 		width: 260px;
 		height: 260px;
@@ -336,7 +339,7 @@ header{
 	}
 
 	#adv_6{
-		background-image: url("/img/content/adv_6.png");
+		background-image: url("../img/content/adv_6.png");
 		background-repeat: no-repeat;
 		height: 100%;
 		width: 992px;
@@ -411,6 +414,10 @@ header{
 		font-size: 28px;
 	}
 
+	.rounds{
+
+	}
+
 	#rev_header{
 		font-family: 'PT Sans';
 		font-style: normal;
@@ -444,7 +451,7 @@ header{
 	}
 
 	#rev_1{
-		background-image: url("/img/content/rev_1.jpg");
+		background-image: url("../img/content/rev_1.jpg");
 		background-repeat: no-repeat;
 		width: 309px;
 		height: 518px;
@@ -453,22 +460,22 @@ header{
 	}
 
 	#rev_2{
-		background-image: url("/img/content/rev_2.jpg");
+		background-image: url("../img/content/rev_2.jpg");
 		background-repeat: no-repeat;
 
 	}
 	#rev_3{
-		background-image: url("/img/content/rev_3.jpg");
+		background-image: url("../img/content/rev_3.jpg");
 		background-repeat: no-repeat;
 
 	}
 	#rev_4{
-		background-image: url("/img/content/rev_4.jpg");
+		background-image: url("../img/content/rev_4.jpg");
 		background-repeat: no-repeat;
 
 	}
 	#rev_5{
-		background-image: url("/img/content/rev_5.jpg");
+		background-image: url("../img/content/rev_5.jpg");
 		background-repeat: no-repeat;
 
 	}
